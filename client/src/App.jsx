@@ -152,7 +152,7 @@ export default function App() {
           ))}
         </nav>
         <div className="sidebar-footer">
-          <div className="system-status"><span className="status-dot" /><div><strong>{navigator.onLine ? t('systemOperational') : t('systemOfflineReady')}</strong><small>SQLite + Express API · PWA</small></div></div>
+          <div className="system-status"><span className="status-dot" /><div><strong>{navigator.onLine ? t('systemOperational') : t('systemOfflineReady')}</strong><small>Secure API + SQL Database · PWA</small></div></div>
           <button className="logout-button" onClick={logout} type="button"><LogOut size={18} /> {t('logout')}</button>
         </div>
       </aside>

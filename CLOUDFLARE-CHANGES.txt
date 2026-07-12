@@ -1,0 +1,7 @@
+Cloudflare upgrade contents:
+- functions/api/[[path]].js: serverless API compatible with Cloudflare Pages Functions
+- client/public/_redirects: SPA fallback
+- CLOUDFLARE-DEPLOY-BANGLA.md: deployment guide
+
+Your existing Express + SQLite server remains for local development.
+Cloud deployment uses D1 via binding name DB.
