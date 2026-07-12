@@ -1,0 +1,14 @@
+বর্তমান anti-kuddus-protocol folder বন্ধ করবেন না।
+
+১. এই ZIP extract করুন।
+২. Extract করা folder-এর ভিতরের সব file/folder copy করুন।
+৩. আপনার বর্তমান anti-kuddus-protocol folder-এর ভিতরে paste করুন।
+৪. Windows যখন জিজ্ঞেস করবে, "Replace the files in the destination" নির্বাচন করুন।
+৫. VS Code terminal-এ চলমান server থাকলে Ctrl + C চাপুন।
+৬. এরপর চালান:
+
+npm install
+npm run dev
+
+Browser-এ Ctrl + Shift + R চাপুন।
+পুরনো service worker cache থাকলে Chrome DevTools → Application → Service Workers → Unregister করে reload করুন।
